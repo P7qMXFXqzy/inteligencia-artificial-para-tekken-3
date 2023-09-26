@@ -223,7 +223,7 @@ def mover():
             pyautogui.keyUp("k")
             pyautogui.keyUp("z")
         cancel = cancel + 1
-        if cancel == 10:
+        if cancel == 3:
             pyautogui.keyDown("j")
 
 def loopPrincipal():
